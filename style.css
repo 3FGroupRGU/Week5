@@ -1,0 +1,59 @@
+head {
+    background-color: aliceblue;
+    float: right;
+    border: ridge;
+    border-color: teal;
+    font-family: "Verdana";
+    font-weight: 600;
+    color: black;
+}
+
+body{
+    background-color: crimson;
+}
+
+h1{
+    background-color: teal;
+    color: whitesmoke;
+    float: left;
+    border: double;
+    border-color: navy;
+    width: 100%;
+    font-family: "Arial";
+    margin: 0;
+    padding: 5pt;
+}
+
+div{
+
+}
+
+#loginBox{
+
+}
+
+h3{
+    border: inset;
+    border-color: teal;
+    background-color:teal;
+    color: black;
+    float: right;
+    margin: 5pt;
+    padding: 5pt;
+    font-family: "Verdana";
+}
+
+form{
+
+}
+
+label{
+
+}
+
+div{
+
+}
+#error{
+
+}
