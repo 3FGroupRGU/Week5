@@ -10,7 +10,10 @@ title {
 }
 
 body {
-
+    background-color: chartreuse;
+    font-family: fantasy;
+    font-weight: 800;
+    color: black;
 }
 
 div {
