@@ -1,5 +1,5 @@
 <?php
-include ("connect.php"); //Esztablishing connection to our database
+include ("connect.php"); //Establishing connection to our database
 if(empty($_POST ["username"])|| empty($_POST ["password"]))
 {
     echo "Both fields are required.";
