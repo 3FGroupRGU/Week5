@@ -7,5 +7,11 @@
 
 <body>
 <h1>Hello</h1>
+
+<?php
+
+// The value of the variable name is found
+    echo "<h1>Hello".$_Get["name"]."</h1>";
+?>
 </body>
 </html>
