@@ -11,7 +11,7 @@
 <?php
 
 // The value of the variable name is found
-    echo "<h1>Hello".$_Get["name"]."</h1>";
+    echo "<h1>Hello".$_Get["username"]."</h1>";
 ?>
 </body>
 </html>
