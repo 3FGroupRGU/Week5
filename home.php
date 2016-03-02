@@ -6,12 +6,7 @@
 </head>
 
 <body>
-<h1>Hello</h1>
+<h1>Hello my lovely. What you doing here then?</h1>
 
-<?php
-
-// The value of the variable name is found
-    echo "<h1>Hello".$_Get["username"]."</h1>";
-?>
 </body>
 </html>
