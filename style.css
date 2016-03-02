@@ -13,7 +13,10 @@ body {
     color:wheat;
 }
 
-div {
-
+#error {
+    background-color: chocolate;
+    font-family: serif;
+    font-weight: 500;
+    color:wheat;
 }
 
