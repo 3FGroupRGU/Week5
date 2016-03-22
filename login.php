@@ -1,4 +1,7 @@
 <?php
+session_start ();
+
+require_once 'connect.php';
 include("connect.php"); //Establishing connection to our database
 if (empty($_POST ["username"]) || empty($_POST ["password"])) {
     echo "Both fields are required.";
@@ -7,7 +10,7 @@ if (empty($_POST ["username"]) || empty($_POST ["password"])) {
     $password = $_POST ["password"];
     echo $username;
     echo $password;
-    $MySDql = "SELECT * FROM users WHERE username='$username' and password='$password'";
+    $MySql = "SELECT * FROM users WHERE username='$username' and password='$password'";
     $result = mysqli_query($db, $MySql);
     if (mysqli_num_rows($result) == 1) {
         header("location: home.php"); // Redirecting to another page
@@ -15,18 +18,7 @@ if (empty($_POST ["username"]) || empty($_POST ["password"])) {
         echo "Incorrect username or password";
     }
 }
-    setcookie(‘access_level’,'standarduser');
-
-    $_SESSION['foo'] = 'bar';
-        print $_SESSION['foo'];
-        unset($_SESSION['foo']);
+session_destroy ();
 ?>
 
-<?php
-    session_start ();
-    if (isset ($_session ['FirstName'])) {
-        ///your code here
-    }
-    $_session = array ();
-    session_destroy ();
-?>
+
